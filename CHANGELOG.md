@@ -27,4 +27,8 @@
     php artisan make:model Notification -m
     ```
     - update post, group, group_users table migrations, move group, group_users creation before post
-    - update migrations
+    - update migrations, add column to `users` table:
+    ```bash
+    php artisan make:migration add_columns_to_users_table
+    php artisan migrate
+    ```
