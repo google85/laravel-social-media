@@ -18,6 +18,7 @@
     - add models
     ```bash
     php artisan make:model Post -m
+    php artisan make:model PostAttachment -m
     php artisan make:model PostReaction -m
     php artisan make:model Comment -m
     php artisan make:model Group -m
@@ -26,7 +27,4 @@
     php artisan make:model Notification -m
     ```
     - update post, group, group_users table migrations, move group, group_users creation before post
-    - add migration for PostAttachment [will be moved up]
-    ```bash
-    php artisan make:model PostAttachment -m
-    ```
+    - update migrations
