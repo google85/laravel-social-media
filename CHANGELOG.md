@@ -26,3 +26,7 @@
     php artisan make:model Notification -m
     ```
     - update post, group, group_users table migrations, move group, group_users creation before post
+    - add migration for PostAttachment [will be moved up]
+    ```bash
+    php artisan make:model PostAttachment -m
+    ```
