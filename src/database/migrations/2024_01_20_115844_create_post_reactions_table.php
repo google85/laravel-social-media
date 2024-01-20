@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('post_reactions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('post_id')->constrained('posts');
-            $table->string('type');     // 'like', 'dislike', 'sad', 'laught' etc
+            $table->string('type');                         // 'like', 'dislike', 'sad', 'laught' etc
             $table->foreignId('user_id')->constrained('users');
             $table->timestamp('created_at')->nullable();    // no need for 'updated_at' on deletion because the entire reaction will be removed
         });
