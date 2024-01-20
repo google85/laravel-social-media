@@ -25,3 +25,4 @@
     php artisan make:model Follower -m
     php artisan make:model Notification -m
     ```
+    - update post table migration
