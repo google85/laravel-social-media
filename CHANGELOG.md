@@ -32,3 +32,4 @@
     php artisan make:migration add_columns_to_users_table
     php artisan migrate
     ```
+    - [PENDING] add username from name
