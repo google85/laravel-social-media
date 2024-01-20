@@ -25,4 +25,4 @@
     php artisan make:model Follower -m
     php artisan make:model Notification -m
     ```
-    - update post table migration
+    - update post, group, group_users table migrations, move group, group_users creation before post
