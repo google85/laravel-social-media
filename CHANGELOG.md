@@ -8,6 +8,7 @@
     composer require spatie/laravel-sluggable
     ```
     - add username generated from name into the database
+    - add update username (slug) from Profile page, but prevent from re-creating slug when updating Name
 
 - 2024-01-20
     - install Laravel with sail for linux:
