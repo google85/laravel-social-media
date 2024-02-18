@@ -1,10 +1,17 @@
 #### Changelog #
 *************************************
 
+- 2024-02-18
+    - [video-part-3]
+    - use sluggable package for username:
+    ```bash
+    composer require spatie/laravel-sluggable
+    ```
+    - add username generated from name into the database
+
 - 2024-01-20
     - install Laravel with sail for linux:
     ```bash
-    # x
     curl -s https://laravel.build/src | bash
     ```
     - install breeze with Vue support:
