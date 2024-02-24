@@ -7,7 +7,10 @@
 ```bash
 cd ./src
 ./vendor/bin/sail up -d
+# for live compiling Vite, in container run:
+npm run dev
 ```
+
 - Links:
 - [local frontend](http://localhost)
 - [local phpMyAdmin](http://localhost/tools/phpMyAdmin/index.php)
