@@ -20,6 +20,7 @@
     ```
     - implemented `Read more/less` on post
     - added second post, group name on post, hover effects on img, group images / other type of attachments, updated download buttons on them
+    - add like/comment buttons on attachments of each post
 
 
 - 2024-02-18
