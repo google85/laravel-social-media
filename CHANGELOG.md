@@ -19,6 +19,7 @@
     npm install @headlessui/vue@latest
     ```
     - implemented `Read more/less` on post
+    - added second post, group name on post, hover effects on img
 
 
 - 2024-02-18
