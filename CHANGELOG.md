@@ -12,6 +12,7 @@
     ```
     - created the dashboard page as simple html, convert parts of it to component
     - added `Following` list as components, like in `My Groups`
+    - created `Create Post` component
 
 
 - 2024-02-18
