@@ -14,6 +14,11 @@
     - added `Following` list as components, like in `My Groups`
     - created `Create Post` component
     - created `Post List/Post Item` components
+    - install headless-ui for using in 'show more..' components
+    ```bash
+    npm install @headlessui/vue@latest
+    ```
+    - implemented `Read more/less` on post
 
 
 - 2024-02-18

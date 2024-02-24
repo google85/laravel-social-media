@@ -21,7 +21,6 @@ const post1 = {
 
 <template>
     <div>
-        Post list goes here
         <PostItem :post="post1" />
     </div>
 </template>
