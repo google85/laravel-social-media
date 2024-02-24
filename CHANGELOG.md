@@ -1,6 +1,17 @@
 #### Changelog #
 *************************************
 
+- 2024-02-24
+    - [video-part-4]
+    - creating home page
+    - `/` route works only logged in
+    - added `HomeController`:
+    ```bash
+    php artisan make:controller HomeController
+    chown 1000:1000 app/Http/Controllers/HomeController.php
+    ```
+
+
 - 2024-02-18
     - [video-part-3]
     - use sluggable package for username:
