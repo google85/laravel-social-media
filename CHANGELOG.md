@@ -10,6 +10,7 @@
     php artisan make:controller HomeController
     chown 1000:1000 app/Http/Controllers/HomeController.php
     ```
+    - created the dashboard page as simple html
 
 
 - 2024-02-18
