@@ -1,6 +1,9 @@
 #### Changelog #
 *************************************
 
+- 2024-02-25
+    - [bonus-by-me] convert `like`, `comment`, `document` SVG into their own SVG
+
 - 2024-02-24
     - [video-part-4]
     - creating home page
