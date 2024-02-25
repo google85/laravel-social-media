@@ -5,7 +5,7 @@
     - [bonus-by-me] convert `like`, `comment`, `document` SVG into their own SVG
     - [dashboard] implemented separate scroll
     - [dashboard] small screen optimizations
-    - [dashboard] make `My Groups` a foldable (Disclosure) area on small screens
+    - [dashboard] make `My Groups` a foldable (Disclosure) area on small screens, refactor into component
 
 - 2024-02-24
     - [video-part-4]
