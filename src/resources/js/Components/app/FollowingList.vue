@@ -8,14 +8,44 @@ const searchKeyword = ref('')
 </script>
 
 <template>
-    <div class="px-3 bg-white rounded border py-3">
+    <div class="px-3 bg-white rounded border py-3 h-full overflow-hidden flex flex-col">
         <h2 class="text-xl font-bold mb-4">My Followings</h2>
         <TextInput :model-value="searchKeyword" placeholder="Type to search" class="w-full" />
-        <div class="py-8">
-            <div v-if="false" class="text-gray-400 flex text-center">
+        <div class="mt-3 flex-1 overflow-auto">
+            <div v-if="false" class="text-gray-400 text-center p-3">
                 You don't have friends yet.
             </div>
             <div v-else>
+                <FollowingItem image="https://picsum.photos/100"
+                               title="John Doe"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="Elon Musk"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="John Doe"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="Elon Musk"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="John Doe"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="Elon Musk"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="John Doe"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="Elon Musk"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="John Doe"
+                            />
+                <FollowingItem image="https://picsum.photos/100"
+                               title="Elon Musk"
+                            />
                 <FollowingItem image="https://picsum.photos/100"
                                title="John Doe"
                             />

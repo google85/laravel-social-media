@@ -14,15 +14,15 @@ defineProps({
     <Head title="Social Media Website" />
 
     <div class="grid lg:grid-cols-12 gap-3 p-4 h-full">
-        <div class="col-span-3 lg:order-1 h-full overflow-auto">
+        <div class="col-span-3 lg:order-1 h-full overflow-hidden">
             <GroupList />
         </div>
-        <div class="lg:col-span-3 lg:order-3 h-full overflow-auto">
+        <div class="lg:col-span-3 lg:order-3 h-full overflow-hidden">
             <FollowingList />
         </div>
-        <div class="lg:col-span-6 lg:order-2 h-full overflow-auto">
+        <div class="lg:col-span-6 lg:order-2 h-full overflow-hidden flex flex-col">
             <CreatePost />
-            <PostList />
+            <PostList class="flex-1" />
         </div>
     </div>
 
