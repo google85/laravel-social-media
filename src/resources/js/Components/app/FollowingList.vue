@@ -2,9 +2,6 @@
 import FollowingListItems from '@/Components/app/FollowingListItems.vue';
 import ChevronRightIcon from '@/Components/app/icons/ChevronRightIcon.vue';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
-import {ref} from "vue";
-
-const searchKeyword = ref('')
 
 </script>
 
@@ -24,7 +21,7 @@ const searchKeyword = ref('')
          </Disclosure>
       </div>
       <div class="h-full overflow-hidden flex-col hidden lg:flex">
-         <h2 class="text-xl font-bold mb-4">My Followings</h2>
+         <h2 class="text-xl font-bold">My Followings</h2>
          <FollowingListItems />
       </div>
     </div>

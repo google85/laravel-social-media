@@ -2,9 +2,6 @@
 import GroupListItems from '@/Components/app/GroupListItems.vue';
 import ChevronRightIcon from '@/Components/app/icons/ChevronRightIcon.vue';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
-import {ref} from "vue";
-
-const searchKeyword = ref('')
 
 </script>
 

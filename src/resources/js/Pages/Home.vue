@@ -14,7 +14,7 @@ defineProps({
     <Head title="Social Media Website" />
 
     <div class="grid lg:grid-cols-12 gap-3 p-4 h-full">
-        <div class="col-span-3 lg:order-1 h-full overflow-hidden">
+        <div class="lg:col-span-3 lg:order-1 h-full overflow-hidden">
             <GroupList />
         </div>
         <div class="lg:col-span-3 lg:order-3 h-full overflow-hidden">
@@ -25,7 +25,6 @@ defineProps({
             <PostList class="flex-1" />
         </div>
     </div>
-
 </template>
 
 <style>
