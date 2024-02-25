@@ -1,8 +1,8 @@
 <script setup>
 import GroupListItems from '@/Components/app/GroupListItems.vue';
 import ChevronRightIcon from '@/Components/app/icons/ChevronRightIcon.vue';
-import {ref} from "vue";
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
+import {ref} from "vue";
 
 const searchKeyword = ref('')
 
@@ -19,13 +19,13 @@ const searchKeyword = ref('')
                     </div>
                 </DisclosureButton>
                 <DisclosurePanel>
-                    <GroupListItems/>
+                    <GroupListItems />
                 </DisclosurePanel>
             </Disclosure>
-            </div>
+        </div>
         <div class="h-full overflow-hidden flex-col hidden lg:flex">
             <h2 class="text-xl font-bold">My Groups</h2>
-            <GroupListItems/>
+            <GroupListItems />
         </div>
     </div>
 </template>
