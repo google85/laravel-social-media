@@ -3,7 +3,8 @@
 
 - 2024-02-25
     - [bonus-by-me] convert `like`, `comment`, `document` SVG into their own SVG
-    - implemented separate scroll
+    - [dashboard] implemented separate scroll
+    - [dashboard] small screen optimizations
 
 - 2024-02-24
     - [video-part-4]
