@@ -13,14 +13,14 @@ defineProps({
 <template>
     <Head title="Social Media Website" />
 
-    <div class="grid lg:grid-cols-12 gap-3 p-4">
-        <div class="col-span-3 lg:order-1">
+    <div class="grid lg:grid-cols-12 gap-3 p-4 h-full">
+        <div class="col-span-3 lg:order-1 h-full overflow-auto">
             <GroupList />
         </div>
-        <div class="lg:col-span-3 lg:order-3">
+        <div class="lg:col-span-3 lg:order-3 h-full overflow-auto">
             <FollowingList />
         </div>
-        <div class="lg:col-span-6 lg:order-2">
+        <div class="lg:col-span-6 lg:order-2 h-full overflow-auto">
             <CreatePost />
             <PostList />
         </div>
