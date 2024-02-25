@@ -34,7 +34,7 @@ import DocumenIcon from '@/Components/app/icons/DocumentIcon.vue';
         </div>
         <div class="mb-3">
             <Disclosure v-slot="{ open }">
-                <div v-if="!open" v-html="post.body.substring(0, 200)" />
+                <div v-if="!open" v-html="post.body.substring(0, 200)"/>
                 <DisclosurePanel>
                     <div v-html="post.body" />
                 </DisclosurePanel>
