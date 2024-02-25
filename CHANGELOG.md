@@ -7,6 +7,7 @@
     - [dashboard] small screen optimizations
     - [dashboard] make `My Groups` a foldable (Disclosure) area on small screens, refactor into component
     - [dashboard] make `My Followings` foldable, refactor into component
+    - [dashboard] wrap all into `AuthenticatedLayout`, fix the scroll area
 
 - 2024-02-24
     - [video-part-4]

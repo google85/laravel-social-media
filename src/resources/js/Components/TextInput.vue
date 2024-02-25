@@ -4,8 +4,9 @@ import { onMounted, ref } from 'vue';
 const model = defineModel({
     type: String,
     required: true,
-    placeholder: String,
 });
+
+const placeholder = defineModel('placeholder');
 
 const input = ref(null);
 
